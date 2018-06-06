@@ -1,0 +1,11 @@
+framework module BekilTestSDK {
+  umbrella header "BekilTestSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module BekilTestSDK.Swift {
+    header "BekilTestSDK-Swift.h"
+    requires objc
+}
