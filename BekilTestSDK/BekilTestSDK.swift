@@ -23,7 +23,7 @@ open class BekilTestSDK: NSObject {
     
     open func hello() {
         
-        debugPrint("Hello from Bekil Test SDK")
+        debugPrint("update geldi şahane!")
         delegate?.didCallHello()
         
     }
